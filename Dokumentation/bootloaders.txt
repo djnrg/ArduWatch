@@ -1,0 +1,4 @@
+https://github.com/arduino/Arduino/tree/master/hardware/arduino/avr/bootloaders/optiboot
+
+
+https://github.com/arduino/Arduino/tree/master/hardware/arduino/avr/firmwares/atmegaxxu2
