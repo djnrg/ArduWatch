@@ -30,10 +30,10 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -878,18 +878,20 @@ design rules under a new name.</description>
 <elements>
 <element name="1,3&quot;OLED1" library="Podreczne" package="1,3&quot;OLED" value="OLED" x="17.78" y="26.67" rot="MR0"/>
 <element name="IC1" library="ds1307_pcf8583" package="SOIC8" value="DS1307Z" x="22.225" y="13.335" smashed="yes">
-<attribute name="NAME" x="19.558" y="11.43" size="1.016" layer="25" rot="R90"/>
-<attribute name="VALUE" x="26.162" y="11.43" size="1.27" layer="27" rot="R90"/>
+<attribute name="NAME" x="20.193" y="13.97" size="1.016" layer="25"/>
+<attribute name="VALUE" x="24.892" y="16.002" size="1.016" layer="27" rot="R270"/>
 </element>
-<element name="Q1" library="crystal" package="TC26H" value="32.768Hz" x="13.97" y="8.89" rot="MR90">
+<element name="Q1" library="crystal" package="TC26H" value="32.768Hz" x="13.97" y="8.89" smashed="yes" rot="MR90">
 <attribute name="OC_NEWARK" value="unknown" x="13.97" y="8.89" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="" x="13.97" y="8.89" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="" x="13.97" y="8.89" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="13.97" y="8.89" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="21.717" y="9.398" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="14.097" y="7.366" size="1.27" layer="28" ratio="10" rot="MR180"/>
 </element>
 <element name="IC2" library="microchip-update" package="SOT23-5L" value="MCP73831" x="7.62" y="18.415" smashed="yes" rot="R180">
 <attribute name="NAME" x="8.763" y="19.05" size="1.016" layer="25" rot="R180"/>
-<attribute name="VALUE" x="9.525" y="21.844" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="4.572" y="15.494" size="1.016" layer="27"/>
 </element>
 <element name="USB+" library="wirepad" package="2,54/0,8" value="WIREPAD2,54/0,8" x="2.54" y="26.035" smashed="yes">
 <attribute name="NAME" x="0.889" y="25.527" size="1.016" layer="25" ratio="10"/>
@@ -901,7 +903,7 @@ design rules under a new name.</description>
 </element>
 <element name="LED1" library="adafruit" package="CHIPLED_1206" value="Red" x="6.731" y="24.765" smashed="yes" rot="R270">
 <attribute name="NAME" x="4.953" y="24.257" size="1.016" layer="25"/>
-<attribute name="VALUE" x="5.461" y="22.225" size="1.27" layer="27"/>
+<attribute name="VALUE" x="9.271" y="24.13" size="1.016" layer="27"/>
 </element>
 <element name="B+" library="wirepad" package="2,54/0,8" value="WIREPAD2,54/0,8" x="10.033" y="30.607" smashed="yes">
 <attribute name="NAME" x="10.922" y="31.115" size="1.016" layer="25" ratio="10" rot="R180"/>
@@ -918,8 +920,8 @@ design rules under a new name.</description>
 <attribute name="SUPPLIER" value="Panasonic" x="10.16" y="22.225" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1748442" x="10.16" y="22.225" size="1.778" layer="27" display="off"/>
 <attribute name="WATTAGE" value="0.25 W" x="10.16" y="22.225" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="11.2014" y="22.733" size="1.016" layer="25" ratio="10" rot="SR180"/>
-<attribute name="VALUE" x="6.7056" y="18.288" size="2.0828" layer="27" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="9.3726" y="21.844" size="1.016" layer="25" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="12.0396" y="21.717" size="1.016" layer="27" ratio="10" rot="SR0"/>
 </element>
 <element name="R2" library="Multicomp_By_element14_Batch_1" package="RESC3216X71N" value="10K Ohms" x="10.16" y="18.415" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="39K0872" x="10.16" y="18.415" size="1.778" layer="27" rot="R270" display="off"/>
@@ -929,7 +931,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="9335765" x="10.16" y="18.415" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="WATTAGE" value="1/8 W" x="10.16" y="18.415" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="9.652" y="19.3294" size="1.016" layer="25" ratio="10" rot="SR270"/>
-<attribute name="VALUE" x="6.223" y="21.8694" size="2.0828" layer="27" ratio="10" rot="SR270"/>
+<attribute name="VALUE" x="11.2776" y="18.034" size="1.016" layer="27" ratio="10" rot="SR0"/>
 </element>
 <element name="C1" library="Kemet_By_element14_Batch_1" package="CAPC3216X180N" value="4.7uF" x="7.62" y="26.924" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="88K0224" x="7.62" y="26.924" size="1.778" layer="27" rot="R180" display="off"/>
@@ -938,8 +940,8 @@ design rules under a new name.</description>
 <attribute name="SUPPLIER" value="Kemet" x="7.62" y="26.924" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGERATING" value="25V" x="7.62" y="26.924" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1288211" x="7.62" y="26.924" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="8.5344" y="27.559" size="1.016" layer="25" ratio="10" rot="SR180"/>
-<attribute name="VALUE" x="11.0744" y="30.861" size="2.0828" layer="27" ratio="10" rot="SR180"/>
+<attribute name="NAME" x="6.7056" y="26.543" size="1.016" layer="25" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="5.6896" y="27.813" size="1.016" layer="27" ratio="10" rot="SR0"/>
 </element>
 <element name="C2" library="Kemet_By_element14_Batch_1" package="CAPC3216X180N" value="4.7uF" x="3.81" y="22.479" smashed="yes">
 <attribute name="OC_NEWARK" value="88K0224" x="3.81" y="22.479" size="1.778" layer="27" display="off"/>
@@ -948,8 +950,8 @@ design rules under a new name.</description>
 <attribute name="SUPPLIER" value="Kemet" x="3.81" y="22.479" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGERATING" value="25V" x="3.81" y="22.479" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1288211" x="3.81" y="22.479" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="4.7244" y="22.987" size="1.016" layer="25" ratio="10" rot="SR180"/>
-<attribute name="VALUE" x="0.3556" y="18.542" size="2.0828" layer="27" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="2.8956" y="21.971" size="1.016" layer="25" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="1.1176" y="23.495" size="1.016" layer="27" ratio="10" rot="SR0"/>
 </element>
 <element name="C3" library="Kemet_By_element14_Batch_1" package="CAPC3216X88N" value="100nF" x="3.81" y="20.066" smashed="yes">
 <attribute name="OC_NEWARK" value="85C2205" x="3.81" y="20.066" size="1.778" layer="27" display="off"/>
@@ -959,7 +961,7 @@ design rules under a new name.</description>
 <attribute name="VOLTAGERATING" value="100V" x="3.81" y="20.066" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1414714" x="3.81" y="20.066" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="2.8956" y="19.558" size="1.016" layer="25" ratio="10" rot="SR0"/>
-<attribute name="VALUE" x="0.3556" y="16.129" size="2.0828" layer="27" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="1.8796" y="18.034" size="1.016" layer="27" ratio="10" rot="SR0"/>
 </element>
 <element name="R3" library="Multicomp_By_element14_Batch_1" package="RESC3216X71N" value="10K Ohms" x="21.59" y="18.415" smashed="yes">
 <attribute name="OC_NEWARK" value="39K0872" x="21.59" y="18.415" size="1.778" layer="27" display="off"/>
@@ -969,7 +971,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="9335765" x="21.59" y="18.415" size="1.778" layer="27" display="off"/>
 <attribute name="WATTAGE" value="1/8 W" x="21.59" y="18.415" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="20.6756" y="17.907" size="1.016" layer="25" ratio="10" rot="SR0"/>
-<attribute name="VALUE" x="18.1356" y="14.478" size="2.0828" layer="27" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="23.4696" y="17.907" size="1.016" layer="27" ratio="10" rot="SR0"/>
 </element>
 <element name="R4" library="Multicomp_By_element14_Batch_1" package="RESC3216X71N" value="10K Ohms" x="21.59" y="20.701" smashed="yes">
 <attribute name="OC_NEWARK" value="39K0872" x="21.59" y="20.701" size="1.778" layer="27" display="off"/>
@@ -979,7 +981,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="9335765" x="21.59" y="20.701" size="1.778" layer="27" display="off"/>
 <attribute name="WATTAGE" value="1/8 W" x="21.59" y="20.701" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="20.6756" y="20.32" size="1.016" layer="25" ratio="10" rot="SR0"/>
-<attribute name="VALUE" x="18.1356" y="16.764" size="2.0828" layer="27" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="23.4696" y="20.193" size="1.016" layer="27" ratio="10" rot="SR0"/>
 </element>
 <element name="S1" library="switch-omron" package="B3F-10XX" value="Button1" x="5.08" y="3.81" rot="SMR180">
 <attribute name="OC_NEWARK" value="36M3542" x="5.08" y="3.81" size="1.778" layer="28" rot="SMR180" display="off"/>
@@ -1001,15 +1003,17 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="9335765" x="15.367" y="13.589" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="WATTAGE" value="1/8 W" x="15.367" y="13.589" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="14.859" y="14.5034" size="1.016" layer="25" ratio="10" rot="SR270"/>
-<attribute name="VALUE" x="11.43" y="17.0434" size="2.0828" layer="27" ratio="10" rot="SR270"/>
+<attribute name="VALUE" x="7.7216" y="12.573" size="1.016" layer="27" ratio="10" rot="SR0"/>
 </element>
 <element name="H5" library="holes" package="4,1" value="MOUNT-HOLE4.1" x="2.54" y="33.02"/>
-<element name="J1" library="SAMTEC-HTSW-FTxx_By_element14_Batch_1" package="SAMTEC_FTS-105-01-L-D" value="FTS-105-01-L-D" x="15.24" y="4.445" rot="MR0">
+<element name="J1" library="SAMTEC-HTSW-FTxx_By_element14_Batch_1" package="SAMTEC_FTS-105-01-L-D" value="FTS-105-01-L-D" x="15.24" y="4.445" smashed="yes" rot="MR0">
 <attribute name="PACKAGE" value="HEADER, 1.27MM, THRU HOLE, 10WAY" x="15.24" y="4.445" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_NEWARK" value="11P4652" x="15.24" y="4.445" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="FTS-105-01-L-D" x="15.24" y="4.445" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SUPPLIER" value="Samtec" x="15.24" y="4.445" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_FARNELL" value="1667728" x="15.24" y="4.445" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="18.6944" y="3.2512" size="1.016" layer="26" ratio="10" rot="SMR0"/>
+<attribute name="VALUE" x="22.8854" y="0.9652" size="1.016" layer="28" ratio="10" rot="SMR0"/>
 </element>
 <element name="C5" library="AVX_By_element14_Batch_1" package="CAPC3216X94N" value="0.1µF" x="11.811" y="26.924" smashed="yes">
 <attribute name="OC_NEWARK" value="34C6813" x="11.811" y="26.924" size="1.778" layer="27" display="off"/>
@@ -1018,13 +1022,13 @@ design rules under a new name.</description>
 <attribute name="SUPPLIER" value="AVX" x="11.811" y="26.924" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGERATING" value="16V" x="11.811" y="26.924" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="4705907" x="11.811" y="26.924" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="12.7762" y="27.5336" size="1.016" layer="25" ratio="10" rot="SR180"/>
-<attribute name="VALUE" x="6.0198" y="23.495" size="2.0828" layer="27" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="10.8458" y="26.5684" size="1.016" layer="25" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="10.9728" y="28.067" size="1.016" layer="27" ratio="10" rot="SR0"/>
 </element>
 <element name="U1" library="SparkFun-DigitalIC" package="TQFP32-08" value="ATMEGA328P_TQFP" x="22.86" y="27.94" smashed="yes" rot="R225">
 <attribute name="PROD_ID" value="IC-09069" x="22.86" y="27.94" size="1.778" layer="27" rot="R225" display="off"/>
 <attribute name="NAME" x="25.105065625" y="28.389015625" size="1.016" layer="25" rot="R225"/>
-<attribute name="VALUE" x="20.165925" y="34.22618125" size="0.4064" layer="27" rot="R225"/>
+<attribute name="VALUE" x="15.267075" y="27.49581875" size="1.016" layer="27" rot="R45"/>
 </element>
 </elements>
 <signals>
@@ -1375,35 +1379,6 @@ design rules under a new name.</description>
 <wire x1="21.59" y1="8.89" x2="21.59" y2="10.735" width="0.6096" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="4,1,5088c75fc9455383"/>
-<approved hash="5,1,e60986d0bb041023"/>
-<approved hash="5,1,85c0eddbf558e305"/>
-<approved hash="5,1,03bb719af5d7e508"/>
-<approved hash="5,1,538fba4dc3041024"/>
-<approved hash="5,1,765e1e5bf558e31b"/>
-<approved hash="5,1,f025821af5d7e516"/>
-<approved hash="5,1,0f15edd2ab04103d"/>
-<approved hash="5,1,3ad452dbe558f311"/>
-<approved hash="5,1,bcafce9ae5d7f51c"/>
-<approved hash="5,1,789c21528f041037"/>
-<approved hash="5,1,2f52475bc558d317"/>
-<approved hash="5,1,f4b5e6da8e33e2ae"/>
-<approved hash="5,1,75dd82c1a6d0be28"/>
-<approved hash="5,16,e60986d0bb041023"/>
-<approved hash="5,16,85c0eddbf558e305"/>
-<approved hash="5,16,03bb719af5d7e508"/>
-<approved hash="5,16,538fba4dc3041024"/>
-<approved hash="5,16,f025821af5d7e516"/>
-<approved hash="5,16,765e1e5bf558e31b"/>
-<approved hash="5,16,0f15edd2ab04103d"/>
-<approved hash="5,16,3ad452dbe558f311"/>
-<approved hash="5,16,bcafce9ae5d7f51c"/>
-<approved hash="5,16,789c21528f041037"/>
-<approved hash="5,16,2f52475bc558d317"/>
-<approved hash="5,16,f4b5e6da8e33e2ae"/>
-<approved hash="5,16,75dd82c1a6d0be28"/>
-</errors>
 </board>
 </drawing>
 </eagle>
