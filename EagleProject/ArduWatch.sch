@@ -4376,20 +4376,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="190.5" y1="119.38" x2="101.6" y2="119.38" width="0.1524" layer="97" style="longdash"/>
 <wire x1="101.6" y1="119.38" x2="101.6" y2="175.26" width="0.1524" layer="97" style="longdash"/>
 <text x="142.24" y="170.18" size="2.54" layer="97">RTC</text>
-<wire x1="200.66" y1="175.26" x2="248.92" y2="175.26" width="0.1524" layer="97" style="longdash"/>
+<wire x1="195.58" y1="175.26" x2="248.92" y2="175.26" width="0.1524" layer="97" style="longdash"/>
 <wire x1="248.92" y1="175.26" x2="248.92" y2="119.38" width="0.1524" layer="97" style="longdash"/>
-<wire x1="248.92" y1="119.38" x2="200.66" y2="119.38" width="0.1524" layer="97" style="longdash"/>
-<wire x1="200.66" y1="119.38" x2="200.66" y2="175.26" width="0.1524" layer="97" style="longdash"/>
+<wire x1="248.92" y1="119.38" x2="195.58" y2="119.38" width="0.1524" layer="97" style="longdash"/>
+<wire x1="195.58" y1="119.38" x2="195.58" y2="175.26" width="0.1524" layer="97" style="longdash"/>
 <text x="218.44" y="170.18" size="2.54" layer="97">Buttons</text>
-<wire x1="187.96" y1="118.11" x2="248.92" y2="118.11" width="0.1524" layer="97" style="longdash"/>
+<wire x1="190.5" y1="118.11" x2="248.92" y2="118.11" width="0.1524" layer="97" style="longdash"/>
 <wire x1="248.92" y1="118.11" x2="248.92" y2="63.5" width="0.1524" layer="97" style="longdash"/>
-<wire x1="248.92" y1="63.5" x2="187.96" y2="63.5" width="0.1524" layer="97" style="longdash"/>
-<wire x1="187.96" y1="63.5" x2="187.96" y2="118.11" width="0.1524" layer="97" style="longdash"/>
+<wire x1="248.92" y1="63.5" x2="190.5" y2="63.5" width="0.1524" layer="97" style="longdash"/>
+<wire x1="190.5" y1="63.5" x2="190.5" y2="118.11" width="0.1524" layer="97" style="longdash"/>
 <text x="214.63" y="114.3" size="2.54" layer="97">OLED</text>
-<wire x1="187.96" y1="60.96" x2="248.92" y2="60.96" width="0.1524" layer="97" style="longdash"/>
+<wire x1="190.5" y1="60.96" x2="248.92" y2="60.96" width="0.1524" layer="97" style="longdash"/>
 <wire x1="248.92" y1="60.96" x2="248.92" y2="27.94" width="0.1524" layer="97" style="longdash"/>
-<wire x1="248.92" y1="27.94" x2="187.96" y2="27.94" width="0.1524" layer="97" style="longdash"/>
-<wire x1="187.96" y1="27.94" x2="187.96" y2="60.96" width="0.1524" layer="97" style="longdash"/>
+<wire x1="248.92" y1="27.94" x2="190.5" y2="27.94" width="0.1524" layer="97" style="longdash"/>
+<wire x1="190.5" y1="27.94" x2="190.5" y2="60.96" width="0.1524" layer="97" style="longdash"/>
 <text x="204.47" y="57.15" size="2.54" layer="97">SPI - programmer</text>
 </plain>
 <instances>
