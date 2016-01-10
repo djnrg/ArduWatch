@@ -4324,8 +4324,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="IC1" library="ds1307_pcf8583" deviceset="DS1307" device="Z"/>
 <part name="Q1" library="crystal" deviceset="CRYSTAL" device="TC26H" value="32.768Hz"/>
 <part name="IC2" library="microchip-update" deviceset="MCP73831" device=""/>
-<part name="USB+" library="wirepad" deviceset="WIREPAD" device="2,54/0,8"/>
-<part name="USB-" library="wirepad" deviceset="WIREPAD" device="2,54/0,8"/>
+<part name="USB+" library="wirepad" deviceset="WIREPAD" device="3,81/1,1" value="WIREPAD3,81/1,1"/>
+<part name="USB-" library="wirepad" deviceset="WIREPAD" device="3,81/1,1" value="WIREPAD3,81/1,1"/>
 <part name="GND1" library="supply" deviceset="GND" device=""/>
 <part name="V1" library="supply" deviceset="VUSB" device=""/>
 <part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_1206" value="Red"/>
@@ -4352,7 +4352,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND8" library="supply" deviceset="GND" device=""/>
 <part name="V7" library="supply" deviceset="VCC" device=""/>
 <part name="R7" library="Multicomp_By_element14_Batch_1" deviceset="MC0.125W12061%10K" device="" value="10K Ohms"/>
-<part name="H5" library="holes" deviceset="MOUNT-HOLE" device="4.1"/>
+<part name="H5" library="holes" deviceset="MOUNT-HOLE" device="3.0" value="MOUNT-HOLE3.0"/>
 <part name="J1" library="SAMTEC-HTSW-FTxx_By_element14_Batch_1" deviceset="FTS-105-01-L-D" device=""/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device="" value="Frame"/>
 <part name="V6" library="supply" deviceset="VCC" device=""/>
@@ -4365,7 +4365,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="17.78" y="160.02" size="1.778" layer="97">USB battery charger</text>
+<text x="12.7" y="154.94" size="1.778" layer="97">USB battery charger</text>
 <wire x1="5.08" y1="175.26" x2="99.06" y2="175.26" width="0.1524" layer="97" style="longdash"/>
 <wire x1="99.06" y1="175.26" x2="99.06" y2="119.38" width="0.1524" layer="97" style="longdash"/>
 <wire x1="99.06" y1="119.38" x2="5.08" y2="119.38" width="0.1524" layer="97" style="longdash"/>
