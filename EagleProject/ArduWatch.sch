@@ -5104,6 +5104,7 @@ For boards designed to be plugged directly into a USB slot. If possible, ensure 
 <part name="JP1" library="pinhead" deviceset="PINHD-2X3" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="USB" device="-MICROB"/>
 <part name="GND6" library="supply" deviceset="GND" device=""/>
+<part name="Q2" library="crystal" deviceset="CRYSTAL" device="HC49S" value="8MHz"/>
 </parts>
 <sheets>
 <sheet>
@@ -5134,6 +5135,8 @@ For boards designed to be plugged directly into a USB slot. If possible, ensure 
 <wire x1="248.92" y1="27.94" x2="190.5" y2="27.94" width="0.1524" layer="97" style="longdash"/>
 <wire x1="190.5" y1="27.94" x2="190.5" y2="60.96" width="0.1524" layer="97" style="longdash"/>
 <text x="204.47" y="57.15" size="2.54" layer="97">SPI - programmer</text>
+<text x="134.62" y="64.008" size="1.778" layer="97">D2</text>
+<text x="134.62" y="61.468" size="1.778" layer="97">D3</text>
 </plain>
 <instances>
 <instance part="1,3&quot;OLED1" gate="G$1" x="220.98" y="81.28" smashed="yes"/>
@@ -5269,6 +5272,7 @@ For boards designed to be plugged directly into a USB slot. If possible, ensure 
 <instance part="GND6" gate="1" x="25.4" y="144.78" smashed="yes">
 <attribute name="VALUE" x="26.7335" y="144.78" size="1.016" layer="96"/>
 </instance>
+<instance part="Q2" gate="G$1" x="68.58" y="64.77" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -5641,6 +5645,20 @@ For boards designed to be plugged directly into a USB slot. If possible, ensure 
 <pinref part="IC1" gate="G$1" pin="X2"/>
 <pinref part="Q1" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="134.62" x2="120.65" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="U1" gate="U$1" pin="PB6(XTAL1/TOSC1)"/>
+<pinref part="Q2" gate="G$1" pin="2"/>
+<wire x1="73.66" y1="67.31" x2="68.58" y2="67.31" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="U1" gate="U$1" pin="PB7(XTAL2/TOSC2)"/>
+<pinref part="Q2" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="62.23" x2="68.58" y2="62.23" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
